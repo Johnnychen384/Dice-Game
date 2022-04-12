@@ -1,0 +1,92 @@
+body {
+    background-color: greenyellow;
+    color: black;
+    text-align: center;
+}
+
+#background-el {
+    background-color: white;
+    position: absolute;
+    left: 600px;
+    max-width: 825px;
+    min-height: 400px;
+    width: 100%;
+}
+
+
+#messageTitle {
+    font-size: 40px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.wrapper-el {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 35%;
+    left: 280px;
+
+}
+
+#player1ScoreBoard {
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+#player2ScoreBoard {
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+#player1dice {
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin: 0 auto;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#player2dice {
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin: 0 auto;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    color: white;
+    padding: 20px 30px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+    position: relative;
+    left: 350px;
+}
+
+#roll-btn {
+    display: block;
+}
+
+
+
+#reset-btn {
+    display: none;
+}
+
+.active {
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+}
